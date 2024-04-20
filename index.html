@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="container"> 
+        <form action="#">
+            <div class="input-fields">
+                <div class="Name-field">
+                    <label for="Name">Name</label>
+                    <input type="text" id="Name" placeholder="Enter your Name" class="input" required pattern="[A-Za-z]">
+                </div>
+                <div class="colleg-field">
+                    <label for="Colleg">Colleg</label>
+                    <input type="text" id="Colleg" placeholder="Enter your Colleg Name"  class="input" required pattern="[A-Za-z]">
+                </div>
+                <div class="course-field">
+                    <label for="Course">Course</label>
+                    <input type="text" id="Course" placeholder="Enter your Course Name" class="input" required pattern="[A-Za-z]">
+                </div>
+                <div class="submit-btn">
+                    <button id="Submit">Submit</button>
+                </div>
+            </div>
+        </form>
+        <div class="table-field">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>College</th>
+                            <th>Course</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Chirag</td>
+                            <td>Sarvodaya</td>
+                            <td>Bsc It</td>
+                            <td class="td">
+                                <button class="Add" >
+                                    Add
+                                </button>
+                                <button  class="Delete" >
+                                    Delete
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+    </div>
+
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
